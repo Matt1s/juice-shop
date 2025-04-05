@@ -6,8 +6,8 @@
 import frisby = require('frisby')
 import path from 'path'
 const fs = require('fs')
-const URL = 'http://localhost:3000'
-const API_URL = 'http://localhost:3000/metrics'
+const URL = 'http://localhost:4000'
+const API_URL = 'http://localhost:4000/metrics'
 
 describe('/metrics', () => {
   xit('GET metrics via public API that are available instantaneously', () => { // FIXME Flaky on CI/CD on at least Windows

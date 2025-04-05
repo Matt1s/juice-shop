@@ -5,7 +5,7 @@
 
 import frisby = require('frisby')
 
-const URL = 'http://localhost:3000'
+const URL = 'http://localhost:4000'
 
 describe('/ftp', () => {
   it('GET serves a directory listing', () => {

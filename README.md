@@ -71,7 +71,7 @@ For a detailed introduction, full list of features and architecture overview ple
 3. Go into the cloned folder with `cd juice-shop`
 4. Run `npm install` (only has to be done before first start or when you change the source code)
 5. Run `npm start`
-6. Browse to <http://localhost:3000>
+6. Browse to <http://localhost:4000>
 
 ### Packaged Distributions
 
@@ -85,7 +85,7 @@ For a detailed introduction, full list of features and architecture overview ple
    [latest release](https://github.com/juice-shop/juice-shop/releases/latest)
 3. Unpack and `cd` into the unpacked folder
 4. Run `npm start`
-5. Browse to <http://localhost:3000>
+5. Browse to <http://localhost:4000>
 
 > Each packaged distribution includes some binaries for `sqlite3` and
 > `libxmljs` bound to the OS and node.js version which `npm install` was
@@ -102,9 +102,9 @@ For a detailed introduction, full list of features and architecture overview ple
 
 1. Install [Docker](https://www.docker.com)
 2. Run `docker pull bkimminich/juice-shop`
-3. Run `docker run --rm -p 127.0.0.1:3000:3000 bkimminich/juice-shop`
-4. Browse to <http://localhost:3000> (on macOS and Windows browse to
-   <http://192.168.99.100:3000> if you are using docker-machine instead of the native docker installation)
+3. Run `docker run --rm -p 127.0.0.1:4000:4000 bkimminich/juice-shop`
+4. Browse to <http://localhost:4000> (on macOS and Windows browse to
+   <http://192.168.99.100:4000> if you are using docker-machine instead of the native docker installation)
 
 ### Vagrant
 

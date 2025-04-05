@@ -1,7 +1,7 @@
 server:
-  port: 3000
+  port: 34000000
   basePath: ''
-  baseUrl: 'http://localhost:3000' # used for CSAF, e.g. https://example.com
+  baseUrl: 'http://localhost:4000' # used for CSAF, e.g. https://example.com
 application:
   domain: juice-sh.op # for pre-loaded email users
   name: 'OWASP Juice Shop'
@@ -63,13 +63,13 @@ application:
       - { uri: 'https://preview.owasp-juice.shop' }
       - { uri: 'https://juice-shop-staging.herokuapp.com' }
       - { uri: 'https://juice-shop.wtf' }
-      - { uri: 'http://localhost:3000', proxy: 'https://local3000.owasp-juice.shop' }
-      - { uri: 'http://127.0.0.1:3000', proxy: 'https://local3000.owasp-juice.shop' }
+      - { uri: 'http://localhost:4000', proxy: 'https://local4000.owasp-juice.shop' }
+      - { uri: 'http://127.0.0.1:4000', proxy: 'https://local4000.owasp-juice.shop' }
       - { uri: 'http://localhost:4200', proxy: 'https://local4200.owasp-juice.shop' }
       - { uri: 'http://127.0.0.1:4200', proxy: 'https://local4200.owasp-juice.shop' }
-      - { uri: 'http://192.168.99.100:3000', proxy: 'https://localmac.owasp-juice.shop' }
+      - { uri: 'http://192.168.99.100:4000', proxy: 'https://localmac.owasp-juice.shop' }
       - { uri: 'http://192.168.99.100:4200', proxy: 'https://localmac.owasp-juice.shop' }
-      - { uri: 'http://penguin.termina.linux.test:3000', proxy: 'https://localchromeos.owasp-juice.shop' }
+      - { uri: 'http://penguin.termina.linux.test:4000', proxy: 'https://localchromeos.owasp-juice.shop' }
       - { uri: 'http://penguin.termina.linux.test:4200', proxy: 'https://localchromeos.owasp-juice.shop' }
 challenges:
   showSolvedNotifications: true
